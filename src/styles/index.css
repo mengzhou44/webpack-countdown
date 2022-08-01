@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: top;
+  gap: 3rem;
+  width: 95vw;
+}
+
+section {
+  margin: 20px;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+.counter {
+  display: flex;
+}
+
+.counter-item {
+  font-size: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: hsl(209, 61%, 16%);
+  border-radius: 5px;
+}
